@@ -1,0 +1,177 @@
+/* TipTap Editor Styles */
+.ProseMirror {
+  outline: none;
+  padding: 1rem;
+  min-height: 400px;
+}
+
+.ProseMirror h1,
+.ProseMirror h2,
+.ProseMirror h3,
+.ProseMirror h4,
+.ProseMirror h5,
+.ProseMirror h6 {
+  line-height: 1.1;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  text-wrap: pretty;
+}
+
+.ProseMirror h1,
+.ProseMirror h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ProseMirror h1 {
+  font-size: 1.4rem;
+}
+
+.ProseMirror h2 {
+  font-size: 1.2rem;
+}
+
+.ProseMirror h3 {
+  font-size: 1.1rem;
+}
+
+.ProseMirror h4,
+.ProseMirror h5,
+.ProseMirror h6 {
+  font-size: 1rem;
+}
+
+.ProseMirror p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 1.5rem;
+  margin: 1.25rem 0;
+}
+
+.ProseMirror li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.ProseMirror blockquote {
+  padding-left: 1rem;
+  border-left: 3px solid #e5e7eb;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.ProseMirror img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.ProseMirror hr {
+  border: none;
+  border-top: 2px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+.ProseMirror a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.ProseMirror a:hover {
+  color: #1d4ed8;
+}
+
+/* Chart placeholder styles */
+.chart-placeholder {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.chart-placeholder:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Theme-specific styles */
+.theme-professional .ProseMirror {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1f2937;
+}
+
+.theme-professional .ProseMirror h1,
+.theme-professional .ProseMirror h2,
+.theme-professional .ProseMirror h3 {
+  color: #111827;
+  font-weight: 600;
+}
+
+.theme-creative .ProseMirror {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #374151;
+}
+
+.theme-creative .ProseMirror h1,
+.theme-creative .ProseMirror h2,
+.theme-creative .ProseMirror h3 {
+  color: #7c3aed;
+  font-weight: 700;
+}
+
+.theme-minimal .ProseMirror {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #4b5563;
+}
+
+.theme-minimal .ProseMirror h1,
+.theme-minimal .ProseMirror h2,
+.theme-minimal .ProseMirror h3 {
+  color: #1f2937;
+  font-weight: 500;
+}
+
+.theme-bold .ProseMirror {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1f2937;
+}
+
+.theme-bold .ProseMirror h1,
+.theme-bold .ProseMirror h2,
+.theme-bold .ProseMirror h3 {
+  color: #dc2626;
+  font-weight: 800;
+}
+
+.theme-elegant .ProseMirror {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #374151;
+}
+
+.theme-elegant .ProseMirror h1,
+.theme-elegant .ProseMirror h2,
+.theme-elegant .ProseMirror h3 {
+  color: #059669;
+  font-weight: 600;
+}
+
+/* Focus states */
+.ProseMirror:focus {
+  outline: none;
+}
+
+.ProseMirror-focused {
+  outline: none;
+}
+
+/* Selection styles */
+.ProseMirror ::selection {
+  background: #dbeafe;
+}
+
+.ProseMirror ::-moz-selection {
+  background: #dbeafe;
+}
